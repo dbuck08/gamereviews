@@ -1,5 +1,5 @@
 def up():
-    """CREATE TABLE gamereviews.developers (
+    """CREATE TABLE gamereviews.publishers (
 	id integer PRIMARY KEY NOT NULL,
 	name varchar,
 	description varchar, 
@@ -10,4 +10,4 @@ def up():
 
 
 def down():
-    "DROP TABLE gamereviews.developers;"
+    "DROP TABLE gamerevies.publishers;"
